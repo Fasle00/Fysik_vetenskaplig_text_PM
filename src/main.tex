@@ -1,0 +1,52 @@
+%! Author = fabian.sigfridsson
+%! Date = 2023-09-19
+
+\documentclass[11p]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{fancyheadings}
+%\usepackage{hyperref} % Fixar klickbara länkar
+\usepackage[swedish]{babel}
+\usepackage[
+    backend=biber,
+    style=authoryear-ibid,
+    sorting=ynt
+]{biblatex}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{amstex}
+% Källor
+% \addbibresource{mall.bib}
+% Sökväg till bildmappen
+\graphicspath{ {./images/} }
+
+\def\name{Fabian Sigfridsson}
+\def\email{fabian.sigfridsson@elev.ga.ntig.se}
+\def\foottitle{Mall Enkel raport}
+\title{Labbrapport - Kaströrelse \\ \small Fysik}
+
+
+\author{\name}
+\date{\today}
+
+\begin{document}
+
+    \maketitle
+
+% \section{Abstrakt} om det är mycket text
+% \tableofcontents om det är mycket text
+
+    \section{Syfte och frågeställning}
+    
+    \section{Bakgrund}
+    
+    \section{Metod}
+
+    \section{Resultat}
+    
+    \section{Analys}
+
+    % \newpage
+    % \printbibliography
+\end{document}
